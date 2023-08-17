@@ -1,0 +1,112 @@
+.header {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-primary-500);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header svg {
+  width: auto;
+}
+
+.start,
+.center,
+.end {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.startLogo {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-500);
+}
+
+.search {
+  max-width: 40rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+}
+.searchContainer {
+  min-width: 33.5rem;
+  border-radius: 2.5rem 0 0 2.5rem;
+  border-top: 1px solid var(--color-primary-400);
+  border-bottom: 1px solid var(--color-primary-400);
+  border-left: 1px solid var(--color-primary-400);
+  background-color: var(--color-primary-600);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchInput {
+  width: 100%;
+  padding: 0.625rem 0.25rem 0.6875rem 1.0625rem;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-400);
+  flex: 1;
+  outline: none;
+}
+.searchInput::placeholder {
+  color: var(--color-primary-300);
+}
+.searchButton {
+  width: 4rem;
+  border-radius: 0 2.5rem 2.5rem 0;
+  border: 1px solid var(--color-primary-400);
+  padding: 0.5rem 1.25rem;
+  background-color: var(--color-neutral-200);
+}
+
+.account {
+  border-radius: 2.5rem;
+  border: 1px solid var(--color-neutral-000);
+  padding: 0.5rem 0.9756rem 0.5rem 0.625rem;
+  color: var(--color-primary-100);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5625rem;
+}
+.account:hover {
+  background-color: var(--color-neutral-300);
+  border-color: transparent;
+}
+.accountIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountLabel {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-500);
+}
+
+.iconButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.iconButton:hover {
+  background-color: var(--color-neutral-100);
+}
+.fill {
+  background-color: var(--color-neutral-100);
+}
