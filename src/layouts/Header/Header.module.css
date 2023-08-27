@@ -1,0 +1,56 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-primary-500);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start,
+.center,
+.end {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.startLogo {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-500);
+}
+
+.account {
+  border-radius: 2.5rem;
+  border: 1px solid var(--color-neutral-000);
+  padding: 0.5rem 0.9756rem 0.5rem 0.625rem;
+  color: var(--color-primary-100);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5625rem;
+  cursor: pointer;
+  user-select: none;
+}
+.account:hover {
+  background-color: var(--color-neutral-300);
+  border-color: transparent;
+}
+.accountIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountLabel {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-500);
+}
