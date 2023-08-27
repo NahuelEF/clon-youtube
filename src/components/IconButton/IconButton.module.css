@@ -1,0 +1,14 @@
+.iconButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+.iconButton:hover {
+  background-color: var(--color-neutral-100);
+}
+.fill {
+  background-color: var(--color-neutral-100);
+}
