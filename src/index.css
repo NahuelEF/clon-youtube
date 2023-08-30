@@ -23,7 +23,7 @@
   --font-weight-500: 500;
   --font-weight-700: 700;
 
-  --font-size-xs: 0.625rem;
+  --font-size-xs: 0.8125rem;
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
   --font-size-lg: 1.125rem;
@@ -79,6 +79,7 @@ li {
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 h1,
@@ -111,16 +112,6 @@ q:after {
   content: none;
 }
 
-/* Configuramos el texto que seleccionamos */
-/* ::-moz-selection {
-  background-color: var(--negro);
-  color: var(--blanco);
-}
-::selection {
-  background-color: var(--negro);
-  color: var(--blanco);
-} */
-
 form,
 input,
 textarea,
@@ -152,17 +143,18 @@ td {
 }
 
 svg {
-  width: 100%;
+  width: auto;
   display: block;
   fill: currentColor;
 }
 
+#root,
 body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--font-family);
   color: var(--color-primary-000);
-  background-color: var(--color-primary-500);
+  /* background-color: var(--color-primary-500); */
   line-height: 1.5em;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;

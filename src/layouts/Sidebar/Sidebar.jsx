@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { SidebarContext } from "@/contexts";
 import { Link } from "react-router-dom";
 import uuid from "react-uuid";
 import {
@@ -7,22 +8,22 @@ import {
   IconBroadcastPin,
   IconClothes,
   IconCollectionPlay,
+  IconFeedback,
   IconFilm,
   IconFire,
+  IconFlag,
   IconGaming,
+  IconHelp,
   IconHistory,
   IconHome,
   IconLibrary,
   IconLightbulb,
   IconMusicNote,
   IconNewspaper,
+  IconPlus,
+  IconSettings,
   IconShorts,
   IconTrophy,
-  IconSettings,
-  IconFlag,
-  IconHelp,
-  IconFeedback,
-  IconPlus,
 } from "@/assets/icons";
 import style from "./Sidebar.module.css";
 
@@ -81,13 +82,14 @@ const Footer = {
 
 export const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("home");
+  const { openSidebar } = useContext(SidebarContext);
 
   const handleClick = (label) => {
     setActiveTab(label);
   };
 
   return (
-    <div className={style.sidebar}>
+    <div className={`${style.sidebar} ${!openSidebar ? style.sidebarClose : ""}`}>
       <nav className={style.nav}>
         <Section listItems={Tabs.section1} onClick={handleClick} selected={activeTab} />
         <Section listItems={Tabs.section2} onClick={handleClick} selected={activeTab} />
