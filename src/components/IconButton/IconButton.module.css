@@ -1,4 +1,5 @@
 .iconButton {
+  position: relative;
   width: 2.5rem;
   height: 2.5rem;
   padding: 0.5rem;
@@ -8,6 +9,9 @@
 }
 .iconButton:hover {
   background-color: var(--color-neutral-100);
+}
+.iconButton:active {
+  background-color: var(--color-neutral-000);
 }
 .fill {
   background-color: var(--color-neutral-100);

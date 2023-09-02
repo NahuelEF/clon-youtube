@@ -6,6 +6,7 @@
   --color-neutral-100: hsla(0, 0%, 100%, 0.1);
   --color-neutral-200: hsla(0, 0%, 100%, 0.08);
   --color-neutral-300: hsl(214, 36%, 23%);
+  --color-neutral-400: hsla(0, 0%, 13%, 0);
 
   --color-primary-000: hsl(0, 0%, 100%);
   --color-primary-100: hsl(208, 100%, 62%);
