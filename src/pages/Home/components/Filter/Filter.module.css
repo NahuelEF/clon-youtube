@@ -1,6 +1,9 @@
 .filter {
-  position: relative;
+  position: sticky;
+  top: 4.625rem;
   width: 100%;
+  z-index: 1;
+  padding-inline: 1.5rem;
   background-color: var(--color-primary-500);
   display: flex;
   flex-flow: row nowrap;
