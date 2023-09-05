@@ -1,0 +1,129 @@
+.videoList {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--color-primary-500);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
+  align-items: start;
+}
+
+.video {
+  margin: 0 0.5rem 2.5rem 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.thumbnail {
+  position: relative;
+  width: 100%;
+  min-height: 13.1237rem;
+  border-radius: 0.75rem;
+  background-color: var(--color-neutral-000);
+  display: flex;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+}
+.thumbnailImg {
+  width: 100%;
+}
+.thumbnailDuration {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  border-radius: 4px;
+  padding: 3px 4px;
+  text-align: center;
+  background-color: var(--color-neutral-500);
+  color: var(--color-primary-100);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-500);
+  line-height: 0.75rem;
+  letter-spacing: 0.35px;
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.75rem;
+}
+.detailsAvatar {
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  border-radius: 1.125rem;
+  background-color: var(--color-neutral-000);
+}
+
+.meta {
+  width: 100%;
+  padding-right: 1.4563rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+}
+.metaTitle {
+  width: 100%;
+  margin-bottom: 4px;
+  color: var(--color-primary-100);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-500);
+  line-height: 22px;
+}
+
+.byline {
+  width: 100%;
+  color: var(--color-secondary-000);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.channelName,
+.metaDataViews,
+.metaDataUpdate {
+  text-align: center;
+  color: var(--color-secondary-000);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-400);
+  line-height: 20px;
+}
+.badge {
+  width: 0.875rem;
+  height: 0.875rem;
+  padding: 1.167px;
+  display: grid;
+  place-items: center;
+}
+
+.metaData {
+  width: 100%;
+  color: var(--color-secondary-000);
+  display: flex;
+  align-items: center;
+}
+.metaDataUpdate::before {
+  content: "•";
+  margin-inline: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+.menuButton {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: none;
+}
+
+.video:hover .thumbnail {
+  border-radius: 0;
+}
+
+.video:hover .menuButton {
+  display: grid;
+  place-items: center;
+}

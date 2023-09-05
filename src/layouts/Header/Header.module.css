@@ -1,6 +1,7 @@
 .header {
   position: sticky;
   top: 0;
+  z-index: 1;
   width: 100%;
   padding: 1rem;
   background-color: var(--color-primary-500);
@@ -29,7 +30,7 @@
   border-radius: 2.5rem;
   border: 1px solid var(--color-neutral-000);
   padding: 0.5rem 0.9756rem 0.5rem 0.625rem;
-  color: var(--color-primary-100);
+  color: var(--color-primary-200);
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
