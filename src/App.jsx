@@ -1,14 +1,11 @@
-import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { SidebarContext } from "./contexts";
+import { UseSidebarContext } from "./contexts";
 import { Header, Sidebar } from "./layouts";
 import { Home } from "./pages";
 
 function App() {
-  const [openSidebar, setOpenSidebar] = useState(true);
-
   return (
-    <SidebarContext.Provider value={{ openSidebar, setOpenSidebar }}>
+    <UseSidebarContext>
       <BrowserRouter>
         <Header />
         <Sidebar />
@@ -16,7 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
-    </SidebarContext.Provider>
+    </UseSidebarContext>
   );
 }
 

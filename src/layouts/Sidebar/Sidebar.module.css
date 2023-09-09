@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: start;
   overflow-y: auto;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .sidebar::-webkit-scrollbar {
   width: 1rem;

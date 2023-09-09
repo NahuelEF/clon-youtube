@@ -157,12 +157,11 @@ body {
   font-size: 100%;
   font-family: var(--font-family);
   color: var(--color-primary-000);
-  /* background-color: var(--color-primary-500); */
   line-height: 1.5em;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
 }

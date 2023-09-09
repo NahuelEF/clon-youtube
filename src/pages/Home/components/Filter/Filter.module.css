@@ -39,6 +39,7 @@
   font-weight: var(--font-weight-400);
   display: grid;
   place-content: center;
+  -webkit-user-select: none;
   user-select: none;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0, 0, 1);
