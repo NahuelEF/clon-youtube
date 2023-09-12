@@ -32,19 +32,21 @@ export const Sidebar = () => {
           </Nav.Section>
         ))}
       </Nav>
-      <Footer>
-        {footerSections.map((section) => (
-          <Footer.Section key={section}>
-            {FOOTER_TEXTS[section].map(({ id, text }) => (
-              <Link key={id} className={style.footerSpan} to={"/"}>
-                {text}
-              </Link>
-            ))}
-          </Footer.Section>
-        ))}
+      {openSidebar ? (
+        <Footer>
+          {footerSections.map((section) => (
+            <Footer.Section key={section}>
+              {FOOTER_TEXTS[section].map(({ id, text }) => (
+                <Link key={id} className={style.footerSpan} to={"/"}>
+                  {text}
+                </Link>
+              ))}
+            </Footer.Section>
+          ))}
 
-        <strong className={`${style.footerSpan} ${style.footerStrong}`}>© 2023 NahuelEF</strong>
-      </Footer>
+          <strong className={`${style.footerSpan} ${style.footerStrong}`}>© 2023 NahuelEF</strong>
+        </Footer>
+      ) : null}
     </aside>
   );
 };

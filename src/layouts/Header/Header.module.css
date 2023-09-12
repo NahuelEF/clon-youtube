@@ -22,8 +22,8 @@
 }
 
 .startLogo {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-500);
+  max-width: 7.5rem;
+  align-self: stretch;
 }
 
 .account {
