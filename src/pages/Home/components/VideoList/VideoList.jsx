@@ -6,7 +6,7 @@ export const VideoList = ({ videos }) => {
   return (
     <section className={style.videoList}>
       {videos.map((video) => (
-        <Video key={video.id} video={...video}/>
+        <Video key={video.id} video={video}/>
       ))}
     </section>
   );
