@@ -9,6 +9,9 @@ export const Search = () => {
   return (
     <form className={style.search} onSubmit={(e) => e.preventDefault()}>
       <div className={style.searchContainer}>
+        <span>
+          <IconSearch />
+        </span>
         <input
           className={style.searchInput}
           type="text"
