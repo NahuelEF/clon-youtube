@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "avatar": "avatar1.jpg",
+    "category": "entertainment",
+    "channel": "Channel A",
+    "duration": "10:30",
+    "thumbnail": "thumbnail1.jpg",
+    "title": "Video 1",
+    "updateTime": "2020-09-20T08:00:00Z",
+    "verified": true,
+    "views": 1500000
+  },
+  {
+    "id": "2",
+    "avatar": "avatar2.jpg",
+    "category": "education",
+    "channel": "Channel B",
+    "duration": "15:45",
+    "thumbnail": "thumbnail2.jpg",
+    "title": "Video 2",
+    "updateTime": "2023-09-21T14:30:00Z",
+    "verified": false,
+    "views": 500000
+  },
+  {
+    "id": "3",
+    "avatar": "avatar3.jpg",
+    "category": "sports",
+    "channel": "Channel C",
+    "duration": "8:20",
+    "thumbnail": "thumbnail3.jpg",
+    "title": "Video 3",
+    "updateTime": "2023-09-18T20:15:00Z",
+    "verified": true,
+    "views": 750000
+  },
+  {
+    "id": "4",
+    "avatar": "avatar4.jpg",
+    "category": "music",
+    "channel": "Channel D",
+    "duration": "12:10",
+    "thumbnail": "thumbnail4.jpg",
+    "title": "Video 4",
+    "updateTime": "2023-09-17T10:45:00Z",
+    "verified": false,
+    "views": 2000000
+  },
+  {
+    "id": "5",
+    "avatar": "avatar5.jpg",
+    "category": "comedy",
+    "channel": "Channel E",
+    "duration": "6:55",
+    "thumbnail": "thumbnail5.jpg",
+    "title": "Video 5",
+    "updateTime": "2023-09-16T16:20:00Z",
+    "verified": true,
+    "views": 300000
+  },
+  {
+    "id": "6",
+    "avatar": "avatar6.jpg",
+    "category": "science",
+    "channel": "Channel F",
+    "duration": "9:40",
+    "thumbnail": "thumbnail6.jpg",
+    "title": "Video 6",
+    "updateTime": "2023-09-15T22:30:00Z",
+    "verified": true,
+    "views": 800000
+  },
+  {
+    "id": "7",
+    "avatar": "avatar7.jpg",
+    "category": "news",
+    "channel": "Channel G",
+    "duration": "7:15",
+    "thumbnail": "thumbnail7.jpg",
+    "title": "Video 7",
+    "updateTime": "2010-09-14T18:10:00Z",
+    "verified": false,
+    "views": 600000
+  },
+  {
+    "id": "8",
+    "avatar": "avatar8.jpg",
+    "category": "music",
+    "channel": "Channel H",
+    "duration": "11:25",
+    "thumbnail": "thumbnail8.jpg",
+    "title": "Video 8",
+    "updateTime": "2023-09-13T12:55:00Z",
+    "verified": true,
+    "views": 900000
+  },
+  {
+    "id": "9",
+    "avatar": "avatar9.jpg",
+    "category": "gaming",
+    "channel": "Channel I",
+    "duration": "14:05",
+    "thumbnail": "thumbnail9.jpg",
+    "title": "Video 9",
+    "updateTime": "2023-09-12T09:25:00Z",
+    "verified": false,
+    "views": 400000
+  },
+  {
+    "id": "10",
+    "avatar": "avatar10.jpg",
+    "category": "comedy",
+    "channel": "Channel J",
+    "duration": "10:50",
+    "thumbnail": "thumbnail10.jpg",
+    "title": "Video 10",
+    "updateTime": "2019-09-11T15:40:00Z",
+    "verified": true,
+    "views": 700000
+  }
+]

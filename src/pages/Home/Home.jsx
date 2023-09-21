@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { SidebarContext } from "@/contexts";
+import VIDEOS from "@/data/videos.json";
 import { Filter, VideoList } from "./components";
-import { FILTER_TABS, VIDEOS } from "./constants";
+import { FILTER_TABS } from "./constants";
 import style from "./Home.module.css";
 
 export const Home = () => {
