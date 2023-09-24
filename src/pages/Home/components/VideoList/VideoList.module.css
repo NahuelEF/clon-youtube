@@ -21,15 +21,17 @@
 .thumbnail {
   position: relative;
   width: 100%;
-  min-height: 13.1237rem;
+  height: 13.1237rem;
   border-radius: 0.75rem;
   background-color: var(--color-neutral-000);
-  display: flex;
+  display: grid;
+  place-content: center;
   overflow: hidden;
   transition: 200ms ease-in-out;
 }
 .thumbnailImg {
   width: 100%;
+  object-fit: contain;
 }
 .thumbnailDuration {
   position: absolute;
@@ -57,8 +59,10 @@
   width: 2.25rem;
   height: 2.25rem;
   flex-shrink: 0;
-  border-radius: 1.125rem;
+  border-radius: 50%;
   background-color: var(--color-neutral-000);
+  display: grid;
+  place-content: center;
 }
 
 .meta {
